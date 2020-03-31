@@ -52,6 +52,8 @@ def bigger_than_ten(x):
 # ---------------------
 def less_than_elements(l, x):
 	# return a list of all elements less than x
+
+	# import pdb; pdb.set_trace()
 	for element in l:
 	    low = []
 	    if element < 5:

@@ -19,6 +19,7 @@ These files are meant to accompany a Women Who Code DC Python presentation on de
 * Use the pdb interactive debugger by adding this to your code where you want the debugger to start. You will be able to step through the execution. See https://docs.python.org/3/library/pdb.html for details.
 
 ```
+# don't forget to remove this from your final code!
 import pdb; pdb.set_trace()
 ```
 
