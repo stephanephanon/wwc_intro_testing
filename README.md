@@ -23,5 +23,5 @@ These files are meant to accompany a Women Who Code DC Python presentation on de
 import pdb; pdb.set_trace()
 ```
 
-* Run the tests on the command line using `python -m unitttest <name of test file>`
+* Run the tests on the command line using `python -m unittest <name of test file>`
 
