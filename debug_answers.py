@@ -43,7 +43,7 @@ def divide_by(num, denom):
 # ---------------------------------
 def bigger_than_ten(x):
 	'''return True if x is bigger than 10 else False'''
-	
+
 	return 10 > x
 
 # ANSWER:
@@ -56,7 +56,9 @@ def bigger_than_ten(x):
 # 4. conceptual error
 # ---------------------
 def less_than_elements(l, x):
-	# return a list of all elements less than x
+	'''
+	 return a list of all elements less than x
+	 '''
 	for element in l:
 	    low = []
 	    if element < x:
