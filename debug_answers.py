@@ -27,7 +27,9 @@ def say_hello(name):
 # 2. basic logic - missed an edge case
 # --------------------------------------
 def divide_by(num, denom):
-	# divide num by denum
+	'''
+	divide num by denom
+	'''
 	return num / denom
 
 # ANSWER: 
@@ -40,7 +42,8 @@ def divide_by(num, denom):
 # 3. conceptual error and/or typo
 # ---------------------------------
 def bigger_than_ten(x):
-	# return True if x is bigger than 10 else False
+	'''return True if x is bigger than 10 else False'''
+
 	return 10 > x
 
 # ANSWER:
@@ -53,7 +56,9 @@ def bigger_than_ten(x):
 # 4. conceptual error
 # ---------------------
 def less_than_elements(l, x):
-	# return a list of all elements less than x
+	'''
+	 return a list of all elements less than x
+	 '''
 	for element in l:
 	    low = []
 	    if element < x:
